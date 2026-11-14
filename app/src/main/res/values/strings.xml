@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Alpha Mic</string>
+    <string name="app_full_title">ALPHA MIC UNIVERSAL INJECTOR</string>
+    <string name="app_subtitle">V1.0 • SHIZUKU POWERED • V32.3 ENGINE</string>
+    <string name="notification_channel_id">alpha_popup_monitor_channel</string>
+    <string name="notification_channel_name">ALPHA Floating Companion</string>
+    <string name="notification_channel_desc">Monitors selected foreground apps and displays the ALPHA Mic V32.3 floating popup.</string>
+    <string name="popup_overlay_title">ALPHA MIC V32.3</string>
+    <string name="sharechat_package">in.mohalla.sharechat</string>
+    <string name="whatsapp_package">com.whatsapp</string>
+    <string name="instagram_package">com.instagram.android</string>
+    <string name="shizuku_package">moe.shizuku.privileged.api</string>
+</resources>

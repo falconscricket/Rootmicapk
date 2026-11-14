@@ -1,0 +1,20 @@
+/* ALPHA Mic Extension V32.3 Reference Popup Theme */
+:root {
+  --alpha-bg: #0b0f17;
+  --alpha-card: #131a26;
+  --alpha-cyan: #00e5ff;
+  --alpha-emerald: #00e676;
+  --alpha-text: #eef4ff;
+}
+body {
+  margin: 0;
+  background: var(--alpha-bg);
+  color: var(--alpha-text);
+  font-family: 'Space Grotesk', sans-serif;
+  width: 340px;
+}
+.alpha-shell { padding: 14px; }
+.alpha-header { display: flex; justify-content: space-between; align-items: center; }
+.alpha-badge { background: var(--alpha-cyan); color: #051018; font-weight: 800; padding: 2px 8px; border-radius: 6px; }
+.preset-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 12px 0; }
+.sliders label { display: flex; justify-content: space-between; font-size: 12px; margin: 6px 0; }

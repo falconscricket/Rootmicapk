@@ -1,0 +1,6 @@
+{
+  "name": "Alpha Mic",
+  "description": "ALPHA MIC Universal Injector V1.0 — Shizuku-powered rootless Android audio companion & ALPHA Mic Extension V32.3 floating DSP studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

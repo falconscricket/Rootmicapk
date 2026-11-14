@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ALPHA MIC V32.3</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="alpha-shell">
+    <header class="alpha-header">
+      <div class="alpha-brand">
+        <span class="alpha-badge">ALPHA</span>
+        <span class="alpha-ver">MIC V32.3</span>
+      </div>
+      <label class="alpha-switch">
+        <input id="masterEnabled" type="checkbox" checked />
+        <span>ACTIVE</span>
+      </label>
+    </header>
+    <section class="preset-grid" id="presetGrid"></section>
+    <section class="sliders">
+      <label>Gain <input id="gain" type="range" min="0" max="300" value="100" /></label>
+      <label>Pitch <input id="pitch" type="range" min="-12" max="12" step="0.5" value="0" /></label>
+      <label>Echo <input id="echoMix" type="range" min="0" max="100" value="0" /></label>
+      <label>Distortion <input id="distortion" type="range" min="0" max="100" value="0" /></label>
+      <label>Noise Gate <input id="noiseGate" type="range" min="0" max="100" value="15" /></label>
+      <label>Robot <input id="robotMix" type="range" min="0" max="100" value="0" /></label>
+      <label>Monster <input id="monsterAmount" type="range" min="0" max="100" value="0" /></label>
+    </section>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

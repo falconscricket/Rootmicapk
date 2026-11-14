@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ALPHA Mic Extension",
+  "version": "32.3",
+  "description": "ALPHA Mic Extension V32.3 — Real-time voice DSP preset & parameter configuration bundled for ALPHA MIC Universal Injector.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js", "effects-config.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
